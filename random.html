@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <meta charset="utf-8">
+    <title>JS Bin</title>
+</head>
+<body>
+
+<script>
+    $(function () {
+        var arr = [
+            "Dale Tan",
+            "Matthew Prestifilippo",
+            "Rob Richard",
+            "Ronald Williams",
+            "Thomas Hallock"
+        ];
+        var victim = arr[(Math.floor(Math.random() * arr.length))];
+
+        $('body').text("victim = " + victim);
+    });
+</script>
+
+</body>
+</html>
